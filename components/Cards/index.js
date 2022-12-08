@@ -17,3 +17,12 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
+axios.get('https://gabitimes.herokuapp.com/articles')
+        .then( response => {
+            // deal with the response data in here
+            console.log(response)
+        })
+        .catch( err => {
+            // deal with the error in here
+            
+        })

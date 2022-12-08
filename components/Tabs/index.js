@@ -8,7 +8,16 @@
 //  The tab component should look like this:
 //    <div class="tab">topic here</div>
 
-
+// axios
+//   .get("https://gabitimes.herokuapp.com/topics")
+//   .then((response) => {
+   
+//     console.log(response.topics)
+//   })
+//   .catch((err) => {
+//     console.log(err)
+    
+//   });
 // const myTopics = [
 //     "javascript",
 //     "bootstrap",
